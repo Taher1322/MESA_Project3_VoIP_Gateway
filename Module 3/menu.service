@@ -1,0 +1,13 @@
+[Unit]
+Description=Menu Startup
+
+[Service]
+User=pi
+ExecStart=/usr/bin/menu
+StandardOutput=file:/home/pi/Desktop/log1.log
+StandardError=file:/home/pi/Desktop/log2.log
+Restart=on-faliure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

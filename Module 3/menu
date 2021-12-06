@@ -1,0 +1,89 @@
+#!/bin/bash
+function dates {
+    echo -en '\n'
+    echo -en '\n'
+    echo "The current date and time is"
+    date
+    echo -en '\n'
+    echo "The linux kernel version is"
+	uname -r
+}
+function disk {
+    uname -r
+    echo -en '\n'
+    echo "Disk Partition Information"
+    echo -en '\n'
+    sudo fdisk -l
+    echo -en '\n'
+    echo "Current disk usage"
+    df -h
+    echo -en '\n'
+}
+function process {
+    echo "Current running processes of root user"
+    ps -Afo pid,uname=USERNAME,pcpu=CPU_USAGE,pmem,comm | grep root
+    echo -en '\n'
+    echo "All Current running processes"
+    ps -Af
+    echo -en '\n'
+}
+function hardware {
+    echo -en '\n'
+    echo "List Hardware of the Raspberry Pi"
+    echo -en '\n'
+
+    sudo lshw -short
+    echo -en '\n'
+    echo "Report of the Raspberry Pi CPU and Processing Units"
+    echo -en '\n'
+
+    lscpu
+    echo -en '\n'
+    echo "RAM Usage"
+    echo -en '\n'
+    free -m
+    echo -en '\n'
+    echo "Done with current messages"
+}
+disk
+dates
+process
+hardware
+#PS3='Please enter your choice: '
+#options=("Date" "Disk" "Process" "Hardware" "Quit")
+#select opt in "${options[@]}"
+#do
+#    case $opt in
+#        "Date")
+#            echo "you chose date"
+#            dates
+#            ;;
+#        "Disk")
+#            echo "you chose disk"
+#            disk
+#            ;;
+#        "Process")
+#            echo "you chose process"
+#            process
+#            ;;
+#        "Hardware")
+#            echo "you chose choice $REPLY which is $opt"
+#            hardware
+#            ;;
+#        "Quit")
+#            break
+#            ;;
+#        *) echo "invalid option $REPLY";;
+#    esac
+#done
+# "Process)
+#             echo "you chose choice $REPLY which is $opt"
+#             ;;
+
+# function disk {
+
+# }
+# function disk {
+
+# }
+

@@ -1,0 +1,310 @@
+5.10.63-v7+
+
+Disk Partition Information
+
+Disk /dev/ram0: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram1: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram2: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram3: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram4: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram5: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram6: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram7: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram8: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram9: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram10: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram11: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram12: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram13: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram14: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram15: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/mmcblk0: 29.12 GiB, 31266439168 bytes, 61067264 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x0417ebf4
+
+Device         Boot  Start      End  Sectors  Size Id Type
+/dev/mmcblk0p1        8192   532479   524288  256M  c W95 FAT32 (LBA)
+/dev/mmcblk0p2      532480 61067263 60534784 28.9G 83 Linux
+
+Current disk usage
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        29G  3.3G   24G  13% /
+devtmpfs        333M     0  333M   0% /dev
+tmpfs           462M     0  462M   0% /dev/shm
+tmpfs           185M  720K  184M   1% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  253M   49M  204M  20% /boot
+
+
+
+The current date and time is
+Thu 02 Dec 2021 03:33:12 PM MST
+
+The linux kernel version is
+5.10.63-v7+
+Current running processes of root user
+
+All Current running processes
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0 28 15:32 ?        00:00:05 /sbin/init splash
+root         2     0  0 15:32 ?        00:00:00 [kthreadd]
+root         3     2  0 15:32 ?        00:00:00 [rcu_gp]
+root         4     2  0 15:32 ?        00:00:00 [rcu_par_gp]
+root         5     2  0 15:32 ?        00:00:00 [kworker/0:0-events]
+root         6     2  0 15:32 ?        00:00:00 [kworker/0:0H-events_highpri]
+root         7     2  0 15:32 ?        00:00:00 [kworker/u8:0-events_unbound]
+root         8     2  0 15:32 ?        00:00:00 [mm_percpu_wq]
+root         9     2  0 15:32 ?        00:00:00 [rcu_tasks_rude_]
+root        10     2  0 15:32 ?        00:00:00 [rcu_tasks_trace]
+root        11     2  0 15:32 ?        00:00:00 [ksoftirqd/0]
+root        12     2  0 15:32 ?        00:00:00 [rcu_sched]
+root        13     2  0 15:32 ?        00:00:00 [migration/0]
+root        14     2  0 15:32 ?        00:00:00 [cpuhp/0]
+root        15     2  0 15:32 ?        00:00:00 [cpuhp/1]
+root        16     2  0 15:32 ?        00:00:00 [migration/1]
+root        17     2  0 15:32 ?        00:00:00 [ksoftirqd/1]
+root        18     2  0 15:32 ?        00:00:00 [kworker/1:0-rcu_gp]
+root        19     2  0 15:32 ?        00:00:00 [kworker/1:0H-events_highpri]
+root        20     2  0 15:32 ?        00:00:00 [cpuhp/2]
+root        21     2  0 15:32 ?        00:00:00 [migration/2]
+root        22     2  0 15:32 ?        00:00:00 [ksoftirqd/2]
+root        23     2  0 15:32 ?        00:00:00 [kworker/2:0-events]
+root        24     2  0 15:32 ?        00:00:00 [kworker/2:0H-kblockd]
+root        25     2  0 15:32 ?        00:00:00 [cpuhp/3]
+root        26     2  0 15:32 ?        00:00:00 [migration/3]
+root        27     2  0 15:32 ?        00:00:00 [ksoftirqd/3]
+root        28     2  0 15:32 ?        00:00:00 [kworker/3:0-rcu_gp]
+root        29     2  0 15:32 ?        00:00:00 [kworker/3:0H-kblockd]
+root        30     2  0 15:32 ?        00:00:00 [kdevtmpfs]
+root        31     2  0 15:32 ?        00:00:00 [netns]
+root        32     2  0 15:32 ?        00:00:00 [kworker/0:1-events]
+root        33     2  0 15:32 ?        00:00:00 [kworker/1:1-events_long]
+root        34     2  0 15:32 ?        00:00:00 [kauditd]
+root        35     2  1 15:32 ?        00:00:00 [kworker/0:2-events]
+root        36     2  0 15:32 ?        00:00:00 [khungtaskd]
+root        37     2  0 15:32 ?        00:00:00 [oom_reaper]
+root        38     2  0 15:32 ?        00:00:00 [writeback]
+root        39     2  0 15:32 ?        00:00:00 [kcompactd0]
+root        57     2  0 15:32 ?        00:00:00 [kblockd]
+root        58     2  0 15:32 ?        00:00:00 [blkcg_punt_bio]
+root        59     2  0 15:32 ?        00:00:00 [watchdogd]
+root        60     2  0 15:32 ?        00:00:00 [kworker/3:1-cgroup_destroy]
+root        61     2  0 15:32 ?        00:00:00 [kworker/1:1H-kblockd]
+root        62     2  0 15:32 ?        00:00:00 [rpciod]
+root        63     2  0 15:32 ?        00:00:00 [kworker/u9:0]
+root        64     2  0 15:32 ?        00:00:00 [xprtiod]
+root        65     2  0 15:32 ?        00:00:00 [kswapd0]
+root        66     2  0 15:32 ?        00:00:00 [nfsiod]
+root        67     2  0 15:32 ?        00:00:00 [kworker/2:1-events_power_efficient]
+root        68     2  0 15:32 ?        00:00:00 [kworker/1:2-events]
+root        69     2  0 15:32 ?        00:00:00 [iscsi_eh]
+root        70     2  0 15:32 ?        00:00:00 [iscsi_destroy]
+root        71     2  0 15:32 ?        00:00:00 [dwc_otg]
+root        72     2  0 15:32 ?        00:00:00 [DWC Notificatio]
+root        73     2  0 15:32 ?        00:00:00 [vchiq-slot/0]
+root        74     2  0 15:32 ?        00:00:00 [vchiq-recy/0]
+root        75     2  0 15:32 ?        00:00:00 [vchiq-sync/0]
+root        76     2  0 15:32 ?        00:00:00 [zswap-shrink]
+root        77     2  0 15:32 ?        00:00:00 [kworker/1:3-events]
+root        78     2  0 15:32 ?        00:00:00 [kworker/1:4-events_long]
+root        79     2  0 15:32 ?        00:00:00 [kworker/1:5+events_freezable]
+root        80     2  0 15:32 ?        00:00:00 [kworker/1:6-events_long]
+root        81     2  0 15:32 ?        00:00:00 [kworker/1:7-rcu_gp]
+root        82     2  0 15:32 ?        00:00:00 [mmc_complete]
+root        83     2  0 15:32 ?        00:00:00 [kworker/0:1H-mmc_complete]
+root        84     2  0 15:32 ?        00:00:00 [jbd2/mmcblk0p2-]
+root        85     2  0 15:32 ?        00:00:00 [ext4-rsv-conver]
+root        86     2  0 15:32 ?        00:00:00 [kworker/2:1H-kblockd]
+root        87     2  0 15:32 ?        00:00:00 [kworker/2:2H]
+root        88     2  0 15:32 ?        00:00:00 [kworker/u8:1-events_unbound]
+root        90     2  0 15:32 ?        00:00:00 [kworker/3:1H]
+root        91     2  0 15:32 ?        00:00:00 [kworker/3:2H]
+root        92     2  0 15:32 ?        00:00:00 [ipv6_addrconf]
+root        93     2  0 15:32 ?        00:00:00 [kworker/2:2-rcu_gp]
+root       102     2  0 15:32 ?        00:00:00 [kworker/1:2H]
+root       109     2  1 15:32 ?        00:00:00 [kworker/0:2H+kblockd]
+root       124     1  6 15:32 ?        00:00:00 /lib/systemd/systemd-journald
+root       129     2  0 15:32 ?        00:00:00 [kworker/3:2-events]
+root       132     1  0 15:32 ?        00:00:00 /lib/systemd/systemd-fsckd
+root       156     1 31 15:33 ?        00:00:03 /lib/systemd/systemd-udevd
+root       157   156  7 15:33 ?        00:00:00 /lib/systemd/systemd-udevd
+root       158   156  7 15:33 ?        00:00:00 /lib/systemd/systemd-udevd
+root       160   156  7 15:33 ?        00:00:00 /lib/systemd/systemd-udevd
+root       161   156  5 15:33 ?        00:00:00 /lib/systemd/systemd-udevd
+root       162   156  2 15:33 ?        00:00:00 /lib/systemd/systemd-udevd
+root       163   156 12 15:33 ?        00:00:01 /lib/systemd/systemd-udevd
+root       164   156  1 15:33 ?        00:00:00 /lib/systemd/systemd-udevd
+root       165   156  7 15:33 ?        00:00:00 /lib/systemd/systemd-udevd
+root       166   156  2 15:33 ?        00:00:00 /lib/systemd/systemd-udevd
+root       167   156  2 15:33 ?        00:00:00 /lib/systemd/systemd-udevd
+root       168     1 20 15:33 ?        00:00:01 @usr/sbin/plymouthd --mode=boot --pid-file=/run/plymouth/pid --attach-to-session
+root       185     2  0 15:33 ?        00:00:00 [vchiq-keep/0]
+root       187     2  0 15:33 ?        00:00:00 [SMIO]
+root       216     2  0 15:33 ?        00:00:00 [mmal-vchiq]
+root       220     2  0 15:33 ?        00:00:00 [mmal-vchiq]
+root       222     2  0 15:33 ?        00:00:00 [mmal-vchiq]
+root       223     2  0 15:33 ?        00:00:00 [mmal-vchiq]
+root       226     2  0 15:33 ?        00:00:00 [mmal-vchiq]
+root       259     2  0 15:33 ?        00:00:00 [kworker/u8:2-events_unbound]
+root       279     2  0 15:33 ?        00:00:00 [cfg80211]
+root       280     2  0 15:33 ?        00:00:00 [kworker/0:3-events]
+root       282     2  0 15:33 ?        00:00:00 [brcmf_wq/mmc1:0]
+root       283     2  0 15:33 ?        00:00:00 [brcmf_wdog/mmc1]
+root       289     2  0 15:33 ?        00:00:00 [kworker/3:3-events]
+root       340     2  0 15:33 ?        00:00:00 [cec-vc4]
+root       341     2  0 15:33 ?        00:00:00 [irq/97-vc4 hdmi]
+root       345     2  0 15:33 ?        00:00:00 [card0-crtc0]
+root       346     2  0 15:33 ?        00:00:00 [card0-crtc1]
+root       347     2  0 15:33 ?        00:00:00 [card0-crtc2]
+root       348     2  0 15:33 ?        00:00:00 [card0-crtc3]
+systemd+   381     1  9 15:33 ?        00:00:00 /lib/systemd/systemd-timesyncd
+avahi      448     1  1 15:33 ?        00:00:00 avahi-daemon: running [raspberrypi.local]
+root       449     1  0 15:33 ?        00:00:00 /usr/sbin/cron -f
+message+   450     1  5 15:33 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       455     1  0 15:33 ?        00:00:00 /bin/sh /usr/bin/btuart
+pi         463     1  1 15:33 ?        00:00:00 /bin/bash /usr/bin/menu
+root       478     1  2 15:33 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root       486     1 10 15:33 ?        00:00:00 /lib/systemd/systemd-logind
+nobody     491     1  0 15:33 ?        00:00:00 /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user nobody --deviceglob /dev/input/event*
+root       494     1  4 15:33 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root       499     1  1 15:33 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi      505   448  0 15:33 ?        00:00:00 avahi-daemon: chroot helper
+root       518   455  1 15:33 ?        00:00:00 /usr/bin/hciattach /dev/serial1 bcm43xx 921600 noflow - b8:27:eb:3b:8e:ca
+root       566     2  0 15:33 ?        00:00:00 [kworker/u8:3-events_unbound]
+root       571     1  4 15:33 ?        00:00:00 /usr/sbin/rngd -r /dev/hwrng
+root       575     2  0 15:33 ?        00:00:00 [kworker/0:4]
+root       576     1  0 15:33 ?        00:00:00 /usr/sbin/dhcpcd -b
+root       597     1  1 15:33 ?        00:00:00 /usr/sbin/cupsd -l
+root       605     1  3 15:33 ?        00:00:00 /usr/sbin/lightdm
+root       606     1  0 15:33 ?        00:00:00 /usr/bin/plymouth --wait
+root       614     1  0 15:33 ?        00:00:00 wpa_supplicant -B -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0
+root       624     1  0 15:33 ?        00:00:00 /usr/sbin/sshd -D
+pi         625   463  0 15:33 ?        00:00:00 ps -Af
+
+
+List Hardware of the Raspberry Pi
+
+H/W path  Device  Class      Description
+========================================
+                  system     Raspberry Pi 3 Model B Rev 1.2
+/0                bus        Motherboard
+/0/0              processor  cpu
+/0/1              processor  cpu
+/0/2              processor  cpu
+/0/3              processor  cpu
+/0/4              memory     922MiB System memory
+/1        usb1    bus        DWC OTG Controller
+/1/1              bus        SMC9514 Hub
+/1/1/1    eth0    network    SMSC9512/9514 Fast Ethernet Adapter
+/1/1/4            input      USB Optical Mouse
+/1/1/5            input      Dell KB216 Wired Keyboard
+/2        wlan0   network    Wireless interface
+
+Report of the Raspberry Pi CPU and Processing Units
+
+Architecture:        armv7l
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  1
+Core(s) per socket:  4
+Socket(s):           1
+Vendor ID:           ARM
+Model:               4
+Model name:          Cortex-A53
+Stepping:            r0p4
+CPU max MHz:         1200.0000
+CPU min MHz:         600.0000
+BogoMIPS:            57.60
+Flags:               half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32
+
+RAM Usage
+
+               total        used        free      shared  buff/cache   available
+Mem:             922          88         667           0         166         783
+Swap:             99           0          99
+
+Done with current messages

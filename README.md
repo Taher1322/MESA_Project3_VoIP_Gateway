@@ -4,7 +4,7 @@
 Module 2 - Booting Windows 10 IoT core </br>
 https://drive.google.com/file/d/1H1dArPG-QmJnKIeKAQXJsUDy_eX4AVyu/view?usp=sharing </br>
 
-Module 2 - Coder/Dercoder </br>
+Module 2 - Coder/Decoder </br>
 https://drive.google.com/file/d/1VsSOpfqfj5RqRUccwhS5nVqYRrWooILV/view?usp=sharing </br>
 
 Module 2 - Serial Debugging </br>

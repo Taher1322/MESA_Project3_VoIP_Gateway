@@ -1,4 +1,4 @@
-#How to install ASterisk on Raspberry Pi </br>
+# How to install ASterisk on Raspberry Pi </br>
 
 Make sure to update and upgrade your OS with the following commands </br>
 sudo apt-get update </br>
@@ -13,9 +13,9 @@ Here you have to make a backup copy of extension.conf, sip.conf and voicemail.co
 Update the following 3 files as attached here, save the configuration </br>
 
 This command will start the asterisk server for peers to connect </br>
-Type # sudo asterisk -r </br>
+Type sudo asterisk -r </br>
 
 This command will reload all the new configurations done in previous steps (changing the contents of 3 files) </br>
-Type # reload </br>
+Type reload </br>
 
 
